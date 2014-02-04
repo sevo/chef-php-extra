@@ -15,7 +15,7 @@ pkgs = value_for_platform(
     "default" => centos_packages
   },
   [ "debian", "ubuntu" ] => {
-    "default" => %w{ php5-cgi php5 php5-dev php5-cli php-pear }
+    "default" => %w{ php54 php54-devel php54-cli php54-pear }
   },
   "default" => %w{ php5-cgi php5 php5-dev php5-cli php-pear }
 )
