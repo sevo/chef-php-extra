@@ -17,7 +17,7 @@ bash "update_php_sources" do
         sudo add-apt-repository ppa:ondrej/php5;
         sudo apt-get update -y;
         sudo apt-get install php5 php5-cli php5-dev php5-common php-pear -y;
-        mkdir /etc/php5/conf.d;
+        mkdir -p /etc/php5/conf.d;
      EOH
 end
 
